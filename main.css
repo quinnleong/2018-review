@@ -1,0 +1,97 @@
+body {
+  background-color: #B9D6E5;
+  color: #232C33;
+  font-family: 'Hind Siliguri';
+  font-size: 20px;
+  margin: 10vh 14vw;
+}
+
+a {
+  border-radius: 2px;
+  color: #232C33;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #F7D9DB;
+}
+
+nav {
+  font-size: 15px;
+  text-align: right;
+}
+
+h2 {
+  font-family: 'Cabin';
+  font-size: 30px;
+}
+
+h2 span {
+  background-color: #F7D9DB;
+  font-style: italic;
+}
+
+h3 {
+  font-family: 'Cabin';
+  font-size: 20px;
+}
+
+h3 span:first-of-type {
+  background-color: #F7D9DB;
+  font-style: italic;
+  margin-right: 30px;
+}
+
+p {
+  margin: 36px 0;
+}
+
+section {
+  margin-top: 70px;
+}
+
+section:first-of-type {
+  margin-top: 0;
+}
+
+.convo {
+  background-color: #fff;
+  border-radius: 4px;
+  margin: 20px 0;
+  padding: 10px 0;
+  width: 600px;
+}
+
+.msg-group {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 8px;
+}
+
+.msg-group-sent {
+  align-items: flex-end;
+}
+
+.msg-group-received {
+  align-items: flex-start;
+}
+
+.msg {
+  border-radius: 16px;
+  font-size: 17px;
+  line-height: 1.4;
+  margin: 1px 0;
+  max-width: 70%;
+  padding: 4px 13px;
+}
+
+.sent-msg {
+  background-color: #328BE5;
+  color: #F7FBFF;
+}
+
+.received-msg {
+  background-color: #e6e5ea;
+  color: #262628;
+}
